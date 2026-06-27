@@ -1,0 +1,65 @@
+{
+  "projectName": "Slingshot Master Pro",
+  "version": "1.0.0",
+  "description": "无需服务器的第一视角弹弓射击游戏，通过广告变现",
+  
+  "gameSettings": {
+    "maxLevels": 100,
+    "targetFrameRate": 60,
+    "qualityLevel": "High"
+  },
+
+  "currencySettings": {
+    "initialCoins": 100,
+    "maxCoins": 999999,
+    "videoRewardCoins": 500
+  },
+
+  "staminaSettings": {
+    "maxStamina": 20,
+    "recoveryTimeSeconds": 300,
+    "useOfflineRecovery": true
+  },
+
+  "slingshotSettings": {
+    "maxPullDistance": 2.0,
+    "shootForceMultiplier": 50.0,
+    "projectileLifetime": 10.0
+  },
+
+  "equipmentSettings": {
+    "maxEquipmentLevel": 50,
+    "upgradeStartCost": 100,
+    "costMultiplier": 1.15
+  },
+
+  "adSettings": {
+    "enableTestMode": true,
+    "interstitialShowInterval": 3,
+    "bannerAdPosition": "Bottom",
+    "rewardedVideoReward": 500
+  },
+
+  "platforms": {
+    "android": {
+      "minSdkVersion": 21,
+      "targetSdkVersion": 31,
+      "enableTestAds": true
+    },
+    "ios": {
+      "minOsVersion": "11.0",
+      "enableTestAds": true
+    },
+    "webgl": {
+      "enabled": true,
+      "compression": "Brotli"
+    }
+  },
+
+  "monetization": {
+    "primarySource": "RewardedAds",
+    "expectedCPM": 5.0,
+    "expectedDailyActiveUsers": 1000,
+    "expectedMonthlyRevenue": "$1000-3000"
+  }
+}
